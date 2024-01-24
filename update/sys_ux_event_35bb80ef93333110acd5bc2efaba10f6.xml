@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>UPDATE_LIST_OPTIONS</event_name>
+        <explicit_api_name/>
+        <interfaces/>
+        <label>Update list options</label>
+        <props>[
+    {
+        "fieldType": "string",
+        "interfaceApiName": "",
+        "label": "List title",
+        "mandatory": false,
+        "name": "title",
+        "readOnly": false,
+        "typeMetadata": null
+    },
+    {
+        "fieldType": "string",
+        "interfaceApiName": "",
+        "label": "List query",
+        "mandatory": false,
+        "name": "query",
+        "readOnly": false,
+        "typeMetadata": null
+    },
+    {
+        "fieldType": "",
+        "interfaceApiName": "",
+        "label": "Request type",
+        "mandatory": false,
+        "name": "reqType",
+        "readOnly": false,
+        "typeMetadata": null
+    }
+]</props>
+        <required_translations>[ {
+  "message" : "List query",
+  "comment" : ""
+}, {
+  "message" : "List title",
+  "comment" : ""
+}, {
+  "message" : "Request type",
+  "comment" : ""
+} ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-23 17:03:33</sys_created_on>
+        <sys_id>35bb80ef93333110acd5bc2efaba10f6</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Update list options</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ux_event_35bb80ef93333110acd5bc2efaba10f6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-24 13:04:29</sys_updated_on>
+    </sys_ux_event>
+    <sys_translated_text action="delete_multiple" query="documentkey=35bb80ef93333110acd5bc2efaba10f6"/>
+</record_update>
